@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cityValues">
+        <item name="1">Hyderabad</item>
+        <item name="7">Delhi</item>
+        <item name="3">Mumbai</item>
+        <item name="0">Others</item>
+    </string-array>
+    <string-array name="syncCityValues">
+        <item name="1">Hyderabad</item>
+        <item name="7">Delhi</item>
+        <item name="3">Mumbai</item>
+        <item name="0">Others</item>
+    </string-array>
+
+</resources>

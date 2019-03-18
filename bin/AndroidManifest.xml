@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.orphanagexfinal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- Splash screen -->
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.orphanagexfinal.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.orphanagexfinal.LoginActivity"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="com.example.orphanagexfinal.Registration"
+            android:label="Registration" >
+        </activity>
+        <activity
+            android:name="com.example.orphanagexfinal.SettingsActivity"
+            android:label="Settings" >
+        </activity>
+        <activity
+            android:name="com.example.orphanagexfinal.Need"
+            android:label="Need" >
+        </activity>
+        <activity
+            android:name="com.example.orphanagexfinal.DispList"
+            android:label="Disp_list" >
+        </activity>
+    </application>
+
+</manifest>
+

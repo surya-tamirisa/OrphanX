@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/user_profile" >
+        <EditTextPreference
+            android:title="@string/user_name"
+            android:summary="@string/user_name_summary"
+            android:key="un"/>
+
+        <ListPreference
+            android:key="city"
+            android:entries="@array/cityValues"
+            android:summary="@string/city_summary"
+            android:entryValues="@array/syncCityValues"
+            android:title="@string/user_city"
+            />
+         
+            </PreferenceCategory>
+
+</PreferenceScreen>
